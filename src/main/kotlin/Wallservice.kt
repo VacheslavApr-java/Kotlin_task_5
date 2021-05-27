@@ -6,13 +6,12 @@ object Wallservice {
         posts += post.copy(id = postId)
         postId++
         return posts.last()
-
     }
 
     fun update(post: Post) : Boolean {
         for ((index, item) in posts.withIndex()){
             if(item.id == post.id) {
-                posts[index] = post.copy(id = post.id, date = post.date)
+                posts[index] = post.copy(id = item.id, date = item.date)
                 return true
             }
         }
