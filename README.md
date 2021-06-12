@@ -9,3 +9,7 @@
 
 ## Задача №1 - Посты (без Attachments) ##
 ## Задача №2 - Attachments ##
+
+
+# 3.1. Исключения #
+##Задача №1 - PostNotFoundException ##
